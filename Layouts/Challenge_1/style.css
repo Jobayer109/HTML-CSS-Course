@@ -10,7 +10,7 @@ html {
 }
 
 section {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   margin-top: 20px;
   border: 2px solid #000000;
@@ -27,4 +27,69 @@ h1 {
 
 .container {
   display: flex;
+  gap: 10px;
+}
+
+.product__img {
+  width: 100%;
+  border: 2px solid rgb(184, 181, 181);
+  border-radius: 5px;
+  margin: 10px 5px 10px 2px;
+}
+.price__div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  font-size: 25px;
+}
+
+.free__shipping {
+  font-weight: 700;
+  color: gray;
+}
+
+article {
+  display: flex;
+  align-items: start;
+}
+
+.product__details {
+  margin-top: 10px;
+  border: 1px solid black;
+}
+.color__group {
+  display: flex;
+  gap: 20px;
+}
+.color__box {
+  height: 20px;
+  width: 20px;
+  background-color: red;
+}
+
+aside {
+  align-items: start;
+  padding: 10px;
+  background-color: red;
+}
+
+.cart__btn {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.cart__btn:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
 }
