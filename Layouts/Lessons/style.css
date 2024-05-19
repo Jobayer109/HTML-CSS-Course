@@ -1,0 +1,66 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base font settings */
+body,
+html {
+  font-family: sans-serif;
+}
+
+/* Navbar container styling */
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+/* Logo and search bar styling */
+.logo,
+.search {
+  color: white;
+  padding: 10px;
+}
+
+/* Navigation links container styling */
+.nav-links {
+  display: flex;
+  justify-content: center;
+  flex: 1; /* Allows nav-links to grow and fill available space */
+}
+
+/* Individual navigation link styling */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch; /* Ensures full width for column items */
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links a {
+    text-align: center;
+    width: 100%; /* Ensures links take full width */
+    padding: 15px; /* Adjust padding for better touch targets */
+  }
+
+  .logo,
+  .search {
+    text-align: center; /* Centers logo and search bar */
+    padding: 15px; /* Adjust padding for consistency */
+  }
+}
