@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: sans-serif;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+h1 {
+  text-align: center;
+  background-color: #e8e6e6;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.container {
+  display: flex;
+}
