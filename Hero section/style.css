@@ -12,6 +12,14 @@ html {
 
 header {
   height: 100vh;
+  position: relative;
+
+  background-image: linear-gradient(hsla(0, 0%, 0%, 0.6), hsla(0, 1%, 27%, 0.6)),
+    url(hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f3f2f2;
 }
 
 section {
@@ -19,8 +27,24 @@ section {
 }
 
 .container {
-  width: 1200px;
+  width: 1080px;
   margin: 0 auto;
+}
+
+.header__container {
+  width: 1080px;
+  position: absolute;
+
+  /* Related with parent */
+  left: 50%;
+  top: 50%;
+
+  /* Related with element */
+  transform: translate(-50%, -50%);
+}
+
+.header__container__inner {
+  width: 50%;
 }
 
 nav {
@@ -29,6 +53,7 @@ nav {
   justify-content: space-between;
   font-size: 20px;
   font-weight: 700;
+  padding-top: 32px;
 }
 
 h1 {
