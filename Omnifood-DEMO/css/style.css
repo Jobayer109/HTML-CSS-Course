@@ -15,3 +15,14 @@ body {
   font-weight: 400;
   color: #555;
 }
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 110rem;
+  margin: 0 auto;
+}
+
+.hero_img {
+  width: 100%;
+}
