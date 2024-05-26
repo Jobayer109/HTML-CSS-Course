@@ -1,3 +1,16 @@
+/* 
+---- Color:
+    - Primary: #e67e22
+    - Tint: 
+    - background: #fae5d3
+    - shades: 
+
+    grey: #555
+
+
+
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -16,11 +29,23 @@ body {
   color: #555;
 }
 
+.section_hero {
+  background-color: #fae5d3;
+}
+
 .hero {
+  max-width: 110rem;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 110rem;
-  margin: 0 auto;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.hero_title {
+  font-size: 4.8rem;
+  color: #333;
+  margin-bottom: 3.2rem;
 }
 
 .hero_img {
