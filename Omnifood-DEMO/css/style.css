@@ -32,6 +32,9 @@ body {
 .section_hero {
   background-color: #fae5d3;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero {
