@@ -39,13 +39,20 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 1.6rem;
+  gap: 2.6rem;
 }
 
 .hero_title {
   font-size: 4.8rem;
   color: #333;
   margin-bottom: 3.2rem;
+  letter-spacing: -1px;
+}
+
+.hero_description {
+  line-height: 1.4;
+  font-size: 1.6rem;
+  margin-bottom: 4.8rem;
 }
 
 .hero_img {
