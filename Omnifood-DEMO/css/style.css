@@ -29,6 +29,28 @@ body {
   color: #555;
 }
 
+/* General Reusable component */
+.container {
+  max-width: 110rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid__2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid__3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid__4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .header {
   display: flex;
   align-items: center;
