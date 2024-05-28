@@ -214,6 +214,7 @@ body {
   font-weight: 700;
   margin-bottom: 1.6rem;
   color: #cf711f;
+  text-transform: uppercase;
 }
 
 .heading_secondary {
@@ -237,3 +238,5 @@ body {
   line-height: 1.6;
   font-size: 1.6rem;
 }
+
+/* Featured in section */
