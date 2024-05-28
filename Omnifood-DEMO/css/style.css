@@ -199,8 +199,13 @@ body {
   padding: 9.6rem 0;
 }
 
+.step-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .step_img {
-  width: 50%;
+  width: 35%;
 }
 
 .subheading {
@@ -212,6 +217,23 @@ body {
 }
 
 .heading_secondary {
-  font-size: 3.2rem;
+  font-size: 3.6rem;
   margin-bottom: 9.6rem;
+}
+
+.text-number {
+  font-size: 8.6rem;
+  font-weight: 700;
+  color: #eee;
+  margin-bottom: 2rem;
+}
+
+.heading_tertiary {
+  font-size: 2.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.step_description {
+  line-height: 1.6;
+  font-size: 1.6rem;
 }
