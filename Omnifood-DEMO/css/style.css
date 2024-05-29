@@ -286,9 +286,21 @@ body {
 
 .meal_attributes {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   gap: 1.3rem;
   list-style: none;
+}
+
+.meal_attribute {
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 600;
+}
+
+/* .meal_attribute span {
+  display: block;
+} */
+
+.svg_size {
+  height: 1.6rem;
 }
